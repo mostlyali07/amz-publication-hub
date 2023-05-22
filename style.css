@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-color: #0000;
+}
+.Topbar {
+  background-color: #000;
+  height: 40px;
+  padding-top: 6px;
+}
+.Topbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.back-color {
+  background-image: url(./Images/main-banner.jpg);
+  background-position: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -109px;
+}
+#navbarSupportedContent a {
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+}
