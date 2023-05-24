@@ -331,3 +331,27 @@ p {
   bottom: 90px;
   z-index: 0;
 }
+.mac img {
+  width: 300px;
+}
+.bok img {
+  width: 160px;
+  border-radius: 6px;
+  box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.26);
+}
+.author img {
+  width: 12%;
+  border-radius: 50%;
+}
+.author h6 {
+  margin-left: 6px;
+}
+.author h6 span {
+  font-size: 12px;
+}
+.author-rev p {
+  font-weight: 500;
+  font-size: 12px !important;
+}
