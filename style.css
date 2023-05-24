@@ -3,6 +3,22 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+@media (max-width: 600px) {
+  /* Styles for smaller screens, e.g., mobile */
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for larger screens, e.g., desktop */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
 p {
   font-size: 16px !important;
 }
@@ -24,7 +40,7 @@ header {
   background-position: unset;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 106vh;
+  height: 133vh;
   margin-top: -109px;
 }
 .btn-1 {
@@ -114,6 +130,13 @@ header {
   -webkit-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
 }
+.sec-img2 {
+  width: 450px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 31px -14px rgba(0, 0, 0, 0.75);
+}
 .back-two {
   background-color: #111111;
   color: #acacac;
@@ -147,8 +170,12 @@ header {
   color: #fff;
 }
 .what-we-do {
-  background-color: #111111;
+  background: linear-gradient(0deg, #111111b3, #111111ba),
+    url("./Images/bacground-white-lab.png");
   color: #fff;
+  background-color: #111111;
+  background-size: cover;
+  background-position: center;
 }
 .flip-box {
   background-color: transparent;
@@ -198,4 +225,109 @@ header {
   background-color: #fff;
   color: #000;
   transform: rotateY(180deg);
+}
+.animate {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.animate.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.compre a {
+  font-size: 14px !important;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+.compre a:hover {
+  text-decoration: underline;
+}
+.compre img {
+  width: 50px;
+  margin-bottom: 6px;
+}
+.card1 {
+  background-color: #e8e8e8;
+  height: 150px;
+  width: 150px;
+}
+.card2 {
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+}
+.Choose,
+h4,
+p {
+  position: relative;
+  z-index: 9 !important;
+}
+.self {
+  margin-bottom: 50px;
+}
+.self::before {
+  content: "1";
+  font-weight: bold;
+  color: #e8e8e8;
+  font-size: 150px;
+  position: absolute;
+  top: 90px;
+  z-index: 0;
+}
+.copyrights {
+  margin-bottom: 50px;
+}
+.copyrights::before {
+  content: "2";
+  font-weight: bold;
+  color: #e8e8e8;
+  font-size: 150px;
+  position: absolute;
+  top: 230px;
+  z-index: 0;
+}
+.extensive::before {
+  content: "3";
+  font-weight: bold;
+  color: #e8e8e8;
+  font-size: 150px;
+  position: absolute;
+  top: 390px;
+  z-index: 0;
+}
+.fast {
+  margin-bottom: 50px;
+}
+.fast::before {
+  content: "4";
+  font-weight: bold;
+  color: #e8e8e8;
+  font-size: 150px;
+  position: absolute;
+  bottom: 400px;
+  z-index: 0;
+}
+.approach {
+  margin-bottom: 50px;
+}
+.approach::before {
+  content: "5";
+  font-weight: bold;
+  color: #e8e8e8;
+  font-size: 150px;
+  position: absolute;
+  bottom: 260px;
+  z-index: 0;
+}
+.proven::before {
+  content: "6";
+  font-weight: bold;
+  color: #e8e8e8;
+  font-size: 150px;
+  position: absolute;
+  bottom: 90px;
+  z-index: 0;
 }
