@@ -58,7 +58,11 @@ header {
   transition: 0.3s;
 }
 .back-color h1 {
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 500;
+}
+.back-color p {
+  font-size: 14px !important;
 }
 #navbarSupportedContent a {
   color: #111111;
