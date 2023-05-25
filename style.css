@@ -355,3 +355,31 @@ p {
   font-weight: 500;
   font-size: 12px !important;
 }
+.carousel-control-prev-icon {
+  background-image: url();
+}
+.carousel-control-next-icon {
+  background-image: url();
+}
+.accordion-item {
+  border: 0px #0000 !important;
+}
+.accordion-button {
+  font-weight: 600;
+  font-size: 14px;
+  height: 40px;
+  background-color: #e8e8e8 !important;
+  color: #000;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+.accordion-button:focus {
+  border-color: #e8e8e8 !important;
+  box-shadow: #000 !important;
+}
+.accordion-body {
+  font-size: 14px;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+}
