@@ -57,6 +57,22 @@ header {
   border: #111111 1px solid;
   transition: 0.3s;
 }
+.btn-2 {
+  font-size: 10px;
+  font-weight: 600;
+  color: #111;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border: #fff 1px solid;
+  text-decoration: none;
+}
+.btn-2:hover {
+  color: #fff;
+  background-color: #0000;
+  border: #fff 1px solid;
+  transition: 0.3s;
+}
 .back-color h1 {
   font-size: 26px;
   font-weight: 500;
@@ -180,6 +196,11 @@ header {
   background-color: #111111;
   background-size: 136%;
   background-position: center;
+}
+.card-cen h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 .card-cen h4 {
   font-weight: 600;
