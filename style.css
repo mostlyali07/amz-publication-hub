@@ -3,13 +3,6 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
-@media (max-width: 600px) {
-  /* Styles for smaller screens, e.g., mobile */
-  body {
-    font-size: 14px;
-    line-height: 1.4;
-  }
-}
 
 @media (min-width: 1024px) {
   /* Styles for larger screens, e.g., desktop */
@@ -72,6 +65,11 @@ header {
   background-color: #0000;
   border: #fff 1px solid;
   transition: 0.3s;
+}
+.flex-apply {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .back-color h1 {
   font-size: 26px;
@@ -429,4 +427,68 @@ p {
 }
 .accordion-button:not(.collapsed) {
   color: #000;
+}
+@media only screen and (max-width: 600px) {
+  .back-color {
+    height: 120vh;
+    background-position: 60%;
+  }
+  .back-color h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .back-color p {
+    font-size: 14px !important;
+    font-weight: 500;
+  }
+  .Topbar {
+    display: none;
+  }
+  .btn-1 {
+    padding: 14px;
+    font-size: 12px;
+  }
+  .verti-form {
+    width: 100%;
+  }
+  .flex-apply {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .sec-img {
+    width: 350px;
+    margin-bottom: 26px;
+  }
+  .author-rev p {
+    margin-top: 26px;
+  }
+  .sec-img2 {
+    width: 330px;
+    margin-bottom: 26px;
+  }
+  .extensive::before {
+    font-size: 170px;
+    top: 1090px;
+  }
+  .copyrights::before {
+    font-size: 170px;
+    top: 760px;
+  }
+  .self::before {
+    font-size: 170px;
+    top: 435px;
+  }
+  .fast::before {
+    font-size: 170px;
+    bottom: 1045px;
+  }
+  .approach::before {
+    font-size: 170px;
+    bottom: 800px;
+  }
+  .proven::before {
+    font-size: 170px;
+    bottom: 550px;
+  }
 }
