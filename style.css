@@ -54,11 +54,13 @@ header {
   font-size: 10px;
   font-weight: 600;
   color: #111;
-  background-color: #fff;
-  padding: 12px;
+  background-color: #dcdddf;
+  padding: 9px;
   border-radius: 6px;
-  border: #fff 1px solid;
+  border: #dcdddf 1px solid;
   text-decoration: none;
+  width: 100px;
+  align-self: center;
 }
 .btn-2:hover {
   color: #fff;
@@ -188,12 +190,17 @@ header {
   color: #fff;
 }
 .what-we-do {
-  background: linear-gradient(0deg, #111111b3, #111111ba),
-    url("./Images/back-png.png");
+  /* background: linear-gradient(0deg, #111111b3, #111111ba),
+    url("./Images/back-png.png"); */
   color: #fff;
   background-color: #111111;
   background-size: 136%;
   background-position: center;
+}
+.card-cen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .card-cen h3 {
   font-weight: 600;
@@ -208,7 +215,7 @@ header {
   font-size: 12px !important;
 }
 .img-d {
-  background-color: #eaeaea;
+  background-color: #dcdddf;
   border-radius: 6px;
   height: 150px;
   margin: 12px 0px;
