@@ -71,13 +71,13 @@
              </ul>
            </li>
            <li class="nav-item">
-             <a class="nav-link my-menu" href="../blogs">BLOGS</a>
+             <a class="nav-link my-menu" href="../amz/blogs">BLOGS</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link my-menu" href="/contact-us">OUR WORK </a>
+             <a class="nav-link my-menu" href="../amz/our-work">OUR WORK </a>
            </li>
            <li class="nav-item">
-             <a class="nav-link my-menu" href="/about-us">CONTACT US</a>
+             <a class="nav-link my-menu" href="../amz/contact-us">CONTACT US</a>
            </li>
          </ul>
        </div>
