@@ -83,7 +83,8 @@ header {
 #navbarSupportedContent a {
   color: #111111;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 6px 12px;
 }
 .my-menu {
   position: relative;
@@ -103,6 +104,9 @@ header {
 .my-menu:hover::before {
   transform: scaleX(1);
 }
+.dropdown-item {
+  font-size: 14px !important;
+}
 .dropdown-item.active,
 .dropdown-item:active,
 .dropdown-item:hover {
@@ -111,6 +115,10 @@ header {
   background-color: #111111;
   border-radius: 26px;
 }
+.navbar-nav li.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 .social {
   background-color: #fff;
   color: #111111 !important;

@@ -37,7 +37,7 @@
                SERVICES
              </a>
 
-             <ul class="dropdown-menu">
+             <ul class="dropdown-menu animate">
                <li>
                  <a class="dropdown-item" href="/">E-Book Writing & Publishing</a>
                </li>
@@ -71,7 +71,7 @@
              </ul>
            </li>
            <li class="nav-item">
-             <a class="nav-link my-menu" href="/contact-us">BLOGS</a>
+             <a class="nav-link my-menu" href="../blogs">BLOGS</a>
            </li>
            <li class="nav-item">
              <a class="nav-link my-menu" href="/contact-us">OUR WORK </a>
