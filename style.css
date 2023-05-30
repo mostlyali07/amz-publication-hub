@@ -312,6 +312,19 @@ header {
 .flip-box-back p {
   font-size: 10px;
 } */
+.work-page {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.794),
+      rgba(255, 255, 255, 0.482)
+    ),
+    url("./Images/our-work.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  margin-top: -109px;
+}
 .contact-page {
   background: linear-gradient(
       90deg,
@@ -360,6 +373,9 @@ header {
   font-weight: 600;
   text-decoration: none;
 }
+.form-check{
+ font-size: 14px !important;
+} 
 .animate {
   opacity: 0;
   transform: scale(0.8);

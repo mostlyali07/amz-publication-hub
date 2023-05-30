@@ -36,7 +36,6 @@
              <a class="nav-link dropdown-toggle my-menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                SERVICES
              </a>
-
              <ul class="dropdown-menu animate">
                <li>
                  <a class="dropdown-item" href="/">E-Book Writing & Publishing</a>
