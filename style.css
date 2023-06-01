@@ -338,6 +338,19 @@ header {
   height: 65vh;
   margin-top: -109px;
 }
+.blog-page {
+  background: linear-gradient(
+      90deg,
+      rgb(255, 255, 255),
+      rgba(255, 255, 255, 0.482)
+    ),
+    url("./Images/Blog-page.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  margin-top: -109px;
+}
 .maps {
   border: 10px solid #fff;
   box-shadow: 0 0 9px #ccc;
@@ -373,9 +386,9 @@ header {
   font-weight: 600;
   text-decoration: none;
 }
-.form-check{
- font-size: 14px !important;
-} 
+.form-check {
+  font-size: 14px !important;
+}
 .animate {
   opacity: 0;
   transform: scale(0.8);
